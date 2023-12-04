@@ -37,13 +37,13 @@
 
   <main id="main">
     <form id="evaluation-form">
-      <div>
-        <div class="form-floating">
+      <div id="form">
+        <div class="form-floating mb-3">
           <input type="text" name="name" id="input-name" placeholder="Nome" class="form-control">
           <label for="input-name">Nome</label>
         </div>
 
-        <div class="form-floating">
+        <div class="form-floating mb-3 ms-3">
           <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome" class="form-control">
           <label for="input-lastname">Sobrenome</label>
         </div>
@@ -51,6 +51,16 @@
         <div class="form-floating">
           <input type="text" name="name" id="input-email" placeholder="Email" class="form-control">
           <label for="input-email">Email</label>
+        </div>
+
+        <div class="form-floating ms-3">
+          <select name="house" id="house" class="form-select" >
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          </select>
+          <label for="floatingSelect">Casa</label>
         </div>
       </div>
 

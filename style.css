@@ -37,12 +37,19 @@
 
 #main {
   display: flex;
+  justify-content: center;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  margin-top: 50px;
+}
+
+#form {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #trybewarts-forms-logo {
