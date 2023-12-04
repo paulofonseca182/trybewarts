@@ -37,7 +37,7 @@
 
   <main id="main">
     <form id="evaluation-form">
-      <div id="form">
+      <div id="form-data">
         <div class="form-floating mb-3">
           <input type="text" name="name" id="input-name" placeholder="Nome" class="form-control">
           <label for="input-name">Nome</label>
@@ -54,13 +54,73 @@
         </div>
 
         <div class="form-floating ms-3">
-          <select name="house" id="house" class="form-select" >
+          <select name="house" id="house" class="form-select">
             <option id="gitnoria-house" value="Gitnória">Gitnória</option>
             <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
             <option id="corvinode-house" value="Corvinode">Corvinode</option>
             <option id="pytherina-house" value="Pytherina">Pytherina</option>
           </select>
           <label for="floatingSelect">Casa</label>
+        </div>
+      </div>
+
+      <div id="family-content">
+
+        <div id="family">
+          <label id="label-family" for="">Qual sua família?</label>
+
+          <div id="form-radio">
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="frontend" name="family" value="Frontend">
+              <label class="form-check-label" for="frontend">Frontend</label>
+            </div>
+
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="backend" name="family" value="Backend">
+              <label class="form-check-label" for="backend">Backend</label>
+            </div>
+
+            <div class="form-check">
+              <input type="radio" class="form-check-input" id="fullStack" name="family" value="FullStack">
+              <label class="form-check-label" for="fullStack">FullStack</label>
+            </div>
+          </div>
+        </div>
+
+        <div id="content">
+          <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+
+          <div id="check-content">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input subject" id="hofs" value="HoFs">
+              <label class="form-check-label" for="hofs">Hofs</label>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input subject" id="jest" value="Jest">
+              <label class="form-check-label" for="jest">Jest</label>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input subject" id="promises" value="Promises">
+              <label class="form-check-label" for="promises">Promises</label>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input subject" id="react" value="React">
+              <label class="form-check-label" for="react">React</label>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input subject" id="sql" value="SQL">
+              <label class="form-check-label" for="sql">SQL</label>
+            </div>
+
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input subject" id="python" value="Python">
+              <label class="form-check-label" for="python">Python</label>
+            </div>
+          </div>
         </div>
       </div>
 
