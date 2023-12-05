@@ -12,8 +12,10 @@ body {
   background-color: rgb(50, 167, 145);
   display: flex;
   padding: 25px;
-  justify-content: space-around;
+  justify-content: space-between;
   border-bottom: solid 5px green;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .trybewarts-header-logo {
@@ -94,11 +96,16 @@ body {
   display: flex;
 }
 
+#counter-character {
+  display: flex;
+  justify-content: end;
+}
+
 #form-text {
   width: 100%;
 }
 
-#text-area {
+#textarea {
   height: 250px;
   resize: none;
 }
@@ -115,10 +122,11 @@ body {
 #footer {
   display: flex;
   height: 50px;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   color: white;
   background-color: rgb(50, 167, 145);
+  border-top: solid 5px green;
 }
 
 #footer p {
