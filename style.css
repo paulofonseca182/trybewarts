@@ -1,8 +1,11 @@
 body {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
+  justify-content: space-between;
 }
 
 .header {
@@ -27,6 +30,11 @@ body {
   align-self: center;
 }
 
+#form-title {
+  display: flex;
+  justify-content: center;
+}
+
 .trybewarts-login {
   display: flex;
 }
@@ -38,10 +46,8 @@ body {
 
 #main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
 }
 
 #evaluation-form {
@@ -108,7 +114,13 @@ body {
 
 #footer {
   display: flex;
+  height: 50px;
+  align-items: center; 
   justify-content: center;
   color: white;
   background-color: rgb(50, 167, 145);
+}
+
+#footer p {
+  margin: 0;
 }
