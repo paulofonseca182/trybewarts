@@ -49,9 +49,41 @@
 
 #form-data {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.form-floating {
+  width: 350px;
+}
+
+.person {
+  display: flex;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+#family-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* #content {
+  width: 350px;
+} */
+
+#check-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+#form-rate {
+  display: flex;
+  justify-content: space-between;
+}
+
+#rate {
+  display: flex;
 }
