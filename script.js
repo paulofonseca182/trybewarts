@@ -1,6 +1,8 @@
 const btnLogin = document.getElementById('btn-login');
 const inputEmail = document.getElementById('email');
 const inputPassword = document.getElementById('password');
+const btnSubmit = document.getElementById('submit-btn');
+const checkBox = document.getElementById('agreement');
 
 btnLogin.addEventListener('click', () => {
   const email = 'tryber@teste.com';
@@ -12,3 +14,9 @@ btnLogin.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const checked = () => {
+  btnSubmit.disabled = !checkBox.checked;
+};
+
+checkBox.addEventListener('change', checked);
