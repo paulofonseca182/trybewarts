@@ -33,8 +33,16 @@ body {
 }
 
 #form-title {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  margin-bottom: 25px;
+  background-color: rgb(50, 167, 145);
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+}
+
+#form-title h1 {
+  font-weight: 100;
 }
 
 .trybewarts-login {
@@ -57,6 +65,10 @@ body {
   width: 675px;
   flex-direction: column;
   margin-top: 50px;
+  background-color: rgba(250, 235, 215, 0.383);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 5px 5px rgb(182, 182, 182);
 }
 
 #form-dataPerson {
