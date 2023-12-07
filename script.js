@@ -150,7 +150,7 @@ btnSubmit.addEventListener('click', (e) => {
   main.insertBefore(creatDiv, main.firstChild);
   const title = document.createElement('h1');
   creatDiv.appendChild(title);
-  title.textContent = 'Inscrição realizada!';
+  title.textContent = 'Avaliação Concluída!';
   createName(creatDiv);
   createEmail(creatDiv);
   createHouse(creatDiv);
